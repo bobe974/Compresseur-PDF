@@ -38,7 +38,7 @@
             button1.Name = "button1";
             button1.Size = new Size(198, 72);
             button1.TabIndex = 0;
-            button1.Text = "Selectionner un PDF à compresser";
+            button1.Text = "Compresser un PDF";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -53,6 +53,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(800, 450);
             Controls.Add(progressBar1);
             Controls.Add(button1);
